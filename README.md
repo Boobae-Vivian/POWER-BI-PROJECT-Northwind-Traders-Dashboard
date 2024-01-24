@@ -17,10 +17,10 @@ The Tracking Dashboard is a testament to our unwavering commitment to delivering
    - Total Freight
    - Average Delivery Duration
 
-2. Identify and highlight 5 companies with the lowest total quantity traded
+2. Identify and highlight companies with the lowest total quantity traded
 3. Determine and showcase the top five(5) countries based on total unit price
 4. Ascertain the total unit prices by category name
-5. Highlight the top three (3) countries with the highest total quantity traded
+5. Highlight the top three (3) companies with the highest total quantity traded
 6. Illustrate the distribution of total Freight costs by Employee Name
 7. Integrate a dynamic "Year Slicer" for data filtering based on specific years.
 
@@ -96,17 +96,43 @@ By effectively demonstrating these skills and concepts, the Power BI dashboard w
 
     Arrange the card visuals to an appropriate size and customize them further by clicking on each card visual. Navigate to the visualization pane, click on format page, and adjust the visual and general options. Under the visual option, use the callout value option to enhance figures by making them bold and increasing the font. Utilize the category label option to turn off the name below the figures in the card. For the general option, use the title option to provide a suitable name for each card visual, appearing above the figures. Assign distinct background colors to each visual, and make the title names white with a black background. Note that visual cards are suitable for presenting single aggregate values.
 
-### 2. Identify and highlight 5 companies with the lowest total quantity traded:
+  ### 2. Identify and highlight companies with the lowest total quantity traded:
 
-To pinpoint and emphasize companies with the lowest total quantity traded, initiate the process by selecting a bar chart from the visualization pane and placing it on the canvas. Drag the quantity column from the data pane into the visualization pane, assigning it to the x-axis, and position the company column on the y-axis for the chosen graphical representation. The resulting bar chart illustrates **Centro Comercial Moctezuma** as the company with the lowest total quantity specifically at 11, out of the five companies.
+    To pinpoint and emphasize companies with the lowest total quantity traded, initiate the process by selecting a bar chart from the visualization pane and placing it on the canvas. Drag the quantity column from the data pane into the visualization pane, assigning it to the x-axis, and position the company column on the y-axis for the chosen graphical representation. The resulting bar chart illustrates **Centro Comercial Moctezuma** as the company with the lowest total quantity specifically at 11, out of the five companies presented as the lowest total quantity traded.
 
-For improved clarity, extraneous elements such as gridlines and unnecessary labels were removed using the format page option in the visualization pane. The graphical representation was given a dark-brown background, with the bars adopting an ash color, labels in yellow, and the title header styled in white against a black background, maintaining a simplistic and uncluttered design.
+    For improved clarity, extraneous elements such as gridlines and unnecessary labels were removed using the format page option in the visualization pane. The graphical representation was given a dark-brown background, with the bars adopting an ash color, labels in yellow, and the title header styled in white against a black background, maintaining a simplistic and uncluttered design.
 
-### 3. Determine and showcase the top five(5) countries based on total unit price:
+  ### 3. Determine and showcase the top five(5) countries based on total unit price:
 
-To analyse campaign count based on marital status, we would select the column chart from the visualization pane so that it appers on the canvas, drag the campaign column from the data pane into the value fields in the visualization pane under the y axis and drag the marital status column to the x axis. The result of this analysis will appear on the column chart graphically having the married with the total campaign of 27thousand, the single with the total of 13 thousand and the divorced with the total of 5thousand. This graphical representation has some distracting elements such as gridlines, unnecessary labelsetc and this unnessary elements were removed by utilizing the format page option in the visualization pane. The graphical representation was given a dark-brown background assigned to it as well as a title name with a yellow colour and a dark-blue background still maintaining its simplicity design.
+    To identify and present the top 5 countries based on total unit price, begin by selecting the column chart from the visualization pane, placing it on the canvas. Drag the unit price column from the data pane into the value fields in the visualization pane under the y-axis, and place the countries column on the x-axis. Subsequently, move to the filters pane, select the countries, set it to the top 5, and apply the filters. The outcome of this analysis will be visually depicted on the column chart, with the United States of America emerging as the foremost country among the top five, boasting a total unit price of 10 thousand.
 
+    To enhance clarity and remove distracting elements, such as gridlines and unnecessary labels, utilize the format page option in the visualization pane. The graphical representation is then configured with a dark-brown background, ash-colored bars, yellow background for labels, and a title name presented in white against a black background, maintaining a design that is simple and uncluttered.
 
+  ### 4.  Ascertain the total unit prices by category name:
+
+    To determine the total unit prices by category name, commence by choosing the column chart from the visualization pane and placing it on the canvas. Drag the unit price column from the data pane into the value fields in the visualization pane under the y-axis, and position the category column on the x-axis. The outcome of this analysis will be visually depicted on the column chart, with "Beverages" emerging as the foremost category with the highest total unit price of 12 thousand, and the "Grains and Cereals" category having the lowest total unit price of 4 thousand.
+
+    To refine the graphical representation and eliminate distracting elements like gridlines and unnecessary labels, utilize the format page option in the visualization pane. The graphical depiction is then configured with a dark-brown background, ash-colored bars, yellow background for labels, and a title name presented in white against a black background, maintaining a design that is simple and uncluttered.
+  
+  ### 5. Highlight the top three (3) companies with the highest total quantity traded:
+
+    To emphasize the top 3 countries with the highest total quantity traded, begin by selecting the pie chart from the visualization pane, placing it on the canvas. Drag the countries column from the data pane into the legend-axis, and the education column to the values axis since we are utilizing the pie chart. Subsequently, navigate to the filters pane and set the company to the top 3, applying the necessary filters.
+
+    The outcome of this analysis will be visually depicted on the pie chart, showcasing Save-a-lot as the leading company with a total percentage of 37%, followed by Ernest Handel at 34%, and Quick Stop at 29%.
+
+    To refine the graphical representation and remove distracting elements such as gridlines and unnecessary labels, utilize the format page option in the visualization pane. The graphical depiction is then configured with a dark-brown background, ash-colored bars, labels in yellow, and a title name presented in white against a black background, maintaining a design that is simple and uncluttered.
+
+  ### 6. Illustrate the distribution of total Freight costs by Employee Name:
+
+  To visualize the distribution of total freight costs by employee name, start by selecting the bar chart from the visualization pane and placing it on the canvas. Drag the freight column from the data pane into the visualization pane, assigning it to the x-axis, and position the employee column on the y-axis for the chosen graphical representation. The resulting bar chart illustrates **Margaret** as the employee with the highest total freight of 11 thousand, and **Anne** as the employee with the lowest total freight of 3 thousand.
+
+  For improved clarity and to remove distracting elements such as gridlines and unnecessary labels, utilize the format page option in the visualization pane. The graphical representation is then configured with a dark-brown background, ash-colored bars, yellow background for labels, and a title header styled in white against a black background, maintaining a design that is simple and uncluttered.
+
+ ### 7. Integrate a dynamic "Year Slicer" for data filtering based on specific years:
+
+   To incorporate a dynamic "Year Slicer" feature into the dashboard, choose the slicer visual from the visualization pane to place it on the canvas. Subsequently, drag the year column from the data pane to the field option in the visualization pane.
+
+To edit or format the slicer, select it and navigate to the format page icon. Click on it and choose the slicer settings. Set the style option to "Title," giving it a table-like appearance. I configured it with a dark-brown background, and its title was styled with white text against a black background.
 
 
 
