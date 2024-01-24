@@ -128,11 +128,32 @@ By effectively demonstrating these skills and concepts, the Power BI dashboard w
 
   For improved clarity and to remove distracting elements such as gridlines and unnecessary labels, utilize the format page option in the visualization pane. The graphical representation is then configured with a dark-brown background, ash-colored bars, yellow background for labels, and a title header styled in white against a black background, maintaining a design that is simple and uncluttered.
 
- ### 7. Integrate a dynamic "Year Slicer" for data filtering based on specific years:
+   ### 7. Integrate a dynamic "Year Slicer" for data filtering based on specific years:
 
    To incorporate a dynamic "Year Slicer" feature into the dashboard, choose the slicer visual from the visualization pane to place it on the canvas. Subsequently, drag the year column from the data pane to the field option in the visualization pane.
 
-To edit or format the slicer, select it and navigate to the format page icon. Click on it and choose the slicer settings. Set the style option to "Title," giving it a table-like appearance. I configured it with a dark-brown background, and its title was styled with white text against a black background.
+  To edit or format the slicer, select it and navigate to the format page icon. Click on it and choose the slicer settings. Set the style option to "Title," giving it a table-like appearance. I configured it with a dark-brown background, and its title was styled with white text against a black background.
+
+
+- Step 6 - Dashboard Result
+  ---
+
+  NORTHWIND TRADERS DASHBOARD
+  :--------------------------:
+  ![](PowerBI2.png)
+
+
+## CONCLUSION
+
+In conclusion, the development of the Northwind Traders Dashboard has provided a comprehensive tool for traders to analyze key performance indicators and make informed decisions. The integration of various datasets and the creation of relationships have laid the foundation for a robust data model. The visual representations of KPIs, company performance, and category insights offer valuable insights into trading activities.
+
+Despite the success of the project, continuous improvement is essential. Regular updates, user training, and feedback mechanisms will contribute to the long-term success and usability of the dashboard. As the trading landscape evolves, the dashboard should be adaptable to changing needs and continue to serve as a valuable asset for traders seeking actionable insights.
+
+
+
+
+
+
 
 
 
