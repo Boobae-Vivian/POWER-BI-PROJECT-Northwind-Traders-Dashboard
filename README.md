@@ -79,8 +79,22 @@ By effectively demonstrating these skills and concepts, the Power BI dashboard w
 
   Subsequently, provide a fitting name for the dashboard by inserting a textbox and typing in "**NORTHWIND TRADERS DASHBOARD**". Following this, further refine the appearance of the name by editing it to be suitable for a dashboard title. In my case, I enhanced the name by adding shapes to make it stand out, giving the shapes a black background. These adjustments can be made using the format page settings in the visualization pane.
 
-- 
+- Step 5 - Problem Statement and Analysis:
+  ---
 
+   ### 1.  Generate five (5) key performance indicators (KPIs) comprising:
+
+  - Total Unit Price
+  - Total Discount
+  - Total Quantity
+  - Total Freight
+  - Average Delivery Duration
+
+     To display Key Performance Indicators (KPIs), choose visual cards from the visualization pane and place them on the canvas. Drag the unit price, discount, quantity, and campaign columns, along with the average delivery duration measure, from the data pane into the values field in the visualization pane individually. This results in total unit price at 57 thousand, total discount at 121, total quantity at 51 thousand, total freight at 65 thousand, and average delivery duration at 28 days.
+
+    However, average delivery duration is not a column and requires calculation using Data Analysis Expressions (DAX). Begin by creating a new column named "datediff" and employ the DATEDIFF function in Power BI to calculate the difference between the "order_date" column and the "required_date" column. Then, use the new measure to calculate the average delivery duration. The snapshots for these processes were not captured, but a comprehensive project on Data Analysis Expressions has been documented here.
+
+    Arrange the card visuals to an appropriate size and customize them further by clicking on each card visual. Navigate to the visualization pane, click on format page, and adjust the visual and general options. Under the visual option, use the callout value option to enhance figures by making them bold and increasing the font. Utilize the category label option to turn off the name below the figures in the card. For the general option, use the title option to provide a suitable name for each card visual, appearing above the figures. Assign distinct background colors to each visual, and make the title names white with a black background. Note that visual cards are suitable for presenting single aggregate values.
 
 
 
