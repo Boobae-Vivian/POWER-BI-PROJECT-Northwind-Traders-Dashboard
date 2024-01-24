@@ -17,7 +17,7 @@ The Tracking Dashboard is a testament to our unwavering commitment to delivering
    - Total Freight
    - Average Delivery Duration
 
-2. Identify and highlight companies with the lowest total quantity traded
+2. Identify and highlight 5 companies with the lowest total quantity traded
 3. Determine and showcase the top five(5) countries based on total unit price
 4. Ascertain the total unit prices by category name
 5. Highlight the top three (3) countries with the highest total quantity traded
@@ -90,11 +90,24 @@ By effectively demonstrating these skills and concepts, the Power BI dashboard w
   - Total Freight
   - Average Delivery Duration
 
-     To display Key Performance Indicators (KPIs), choose visual cards from the visualization pane and place them on the canvas. Drag the unit price, discount, quantity, and campaign columns, along with the average delivery duration measure, from the data pane into the values field in the visualization pane individually. This results in total unit price at 57 thousand, total discount at 121, total quantity at 51 thousand, total freight at 65 thousand, and average delivery duration at 28 days.
+     To display Key Performance Indicators (KPIs), choose visual cards from the visualization pane and place them on the canvas. Drag the unit price, discount, quantity, and campaign columns, along with the average delivery duration measure, from the data pane into the values field in the visualization pane individually. This results in **total unit price at 57 thousand, total discount at 121, total quantity at 51 thousand, total freight at 65 thousand, and average delivery duration at 28 days**.
 
-    However, average delivery duration is not a column and requires calculation using Data Analysis Expressions (DAX). Begin by creating a new column named "datediff" and employ the DATEDIFF function in Power BI to calculate the difference between the "order_date" column and the "required_date" column. Then, use the new measure to calculate the average delivery duration. The snapshots for these processes were not captured, but a comprehensive project on Data Analysis Expressions has been documented here.
+    However, average delivery duration is not a column and requires calculation using Data Analysis Expressions (DAX). Begin by creating a new column named "datediff" and employ the DATEDIFF function in Power BI to calculate the difference between the "order_date" column and the "required_date" column. Then, use the new measure to calculate the average delivery duration. The snapshots for these processes were not captured, but a comprehensive project on Data Analysis Expressions has been documented [here](https://github.com/Boobae-Vivian/POWER-BI-TASK-4-Data-Analysis-Expression-DAX).
 
     Arrange the card visuals to an appropriate size and customize them further by clicking on each card visual. Navigate to the visualization pane, click on format page, and adjust the visual and general options. Under the visual option, use the callout value option to enhance figures by making them bold and increasing the font. Utilize the category label option to turn off the name below the figures in the card. For the general option, use the title option to provide a suitable name for each card visual, appearing above the figures. Assign distinct background colors to each visual, and make the title names white with a black background. Note that visual cards are suitable for presenting single aggregate values.
+
+### 2. Identify and highlight 5 companies with the lowest total quantity traded:
+
+To pinpoint and emphasize companies with the lowest total quantity traded, initiate the process by selecting a bar chart from the visualization pane and placing it on the canvas. Drag the quantity column from the data pane into the visualization pane, assigning it to the x-axis, and position the company column on the y-axis for the chosen graphical representation. The resulting bar chart illustrates **Centro Comercial Moctezuma** as the company with the lowest total quantity specifically at 11, out of the five companies.
+
+For improved clarity, extraneous elements such as gridlines and unnecessary labels were removed using the format page option in the visualization pane. The graphical representation was given a dark-brown background, with the bars adopting an ash color, labels in yellow, and the title header styled in white against a black background, maintaining a simplistic and uncluttered design.
+
+### 3. Determine and showcase the top five(5) countries based on total unit price:
+
+To analyse campaign count based on marital status, we would select the column chart from the visualization pane so that it appers on the canvas, drag the campaign column from the data pane into the value fields in the visualization pane under the y axis and drag the marital status column to the x axis. The result of this analysis will appear on the column chart graphically having the married with the total campaign of 27thousand, the single with the total of 13 thousand and the divorced with the total of 5thousand. This graphical representation has some distracting elements such as gridlines, unnecessary labelsetc and this unnessary elements were removed by utilizing the format page option in the visualization pane. The graphical representation was given a dark-brown background assigned to it as well as a title name with a yellow colour and a dark-blue background still maintaining its simplicity design.
+
+
+
 
 
 
